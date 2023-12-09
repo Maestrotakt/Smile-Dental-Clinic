@@ -492,10 +492,11 @@ a{
 
 .BG-image-about1 {
     background-image: url(Title\ Entrance.jpg);
-    background-size: cover  ;
+    background-size: cover;
     width: 100%;
-    height: 60em;
+    height: auto;
     background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     
     
