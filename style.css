@@ -3,9 +3,9 @@
     margin: 0%;
     height: 100%;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* flex-wrap: wrap; */
-    transition: 0.5s;
+    transition-duration: 0.5s;
 }
 
 a{
@@ -58,11 +58,12 @@ a{
     margin: 20px;
     border-radius: 5px;
     color: rgb(0, 0, 0);
+    font-size: large;
 
 }
 
 .navigation-button:hover{
-    background-color: white;
+    background-color: #5f5dd0;
     color: #000000;
     padding: 10px;
     
@@ -93,6 +94,7 @@ a{
     margin: 10px;
     border-radius: 5px;
     color: #000000;
+    font-size: large;
 
 }
 
@@ -103,7 +105,7 @@ a{
 
 }
 .navigation-button-dropdown:hover{
-    background-color: white;
+    background-color: #5f5dd0;
     color: black;
     padding:10px;
     
@@ -130,7 +132,7 @@ a{
 
 }
 
-.BG-IMAGE2 {
+/* .BG-IMAGE2 {
     display: flex;
     justify-content: left;
     align-items: center;
@@ -138,7 +140,19 @@ a{
     
 
 
-}
+} */
+
+
+
+
+
+
+/* Content coding area  */
+/* Content coding area  */
+/* Content coding area  */
+/* Content coding area  */
+
+
 .BG-IMAGE2 {
     
     background-color: #5afac28c;
@@ -148,19 +162,48 @@ a{
     background-position: right;
     background-attachment:fixed;
     width: 100%;
-    height: 70rem;
-
+    height: auto;
+    display: flex;
+    justify-content: flex-start ;
+    gap: 30px ;
+    padding: 30px;
+    flex-wrap: wrap;
+    
 }
 
+.about-description-title {
+    height: fit-content;
+    width: 60%;
+    padding: 20px;
+    
 
+}
+.about-description-short {
+    height: fit-content;
+    max-width: 60%;
+    font-size: x-large;
+    padding: 20px;
+    white-space: normal;
+    
+}
+.about-description-subtitle {
+    background-color: #ffffffae;
+    height: fit-content;
+    max-width: max-content;
+    font-size: x-large;
+    padding: 20px;
+    
+}
+.about-description-subtitle:hover {
+    background-color: white;
+    height: fit-content;
+    max-width: max-content;
+    font-size: xx-large;
+    padding: 20px;
+    border-radius: 20px;
 
-
-
-/* Content coding area  */
-/* Content coding area  */
-/* Content coding area  */
-/* Content coding area  */
-
+    
+}
 
 .content-logo {
     height: auto;
@@ -203,7 +246,7 @@ a{
 
 .appointment-button:hover {
     color: white;
-    background-color: #000000;
+    background-color: #5f5dd0;
     padding: 20px;
     border-radius: 8px;
 
@@ -245,9 +288,177 @@ a{
     border-radius: 10px;
    
     
+
+    
+}
+
+.contents-box1 {
+    background-color: #ffffff;
+    min-height: 1em;
+    width: 15em;
+    text-align: center;
+    /* margin: 10px; */
+    padding: 20px;
+    border-radius: 10px;
+   
     
 
 }
+
+.img-contents {
+    width: 100px;
+
+}
+.h1-title{
+    color: #5f5dd0;
+    font-style: oblique;
+    font-weight: bolder;
+    line-height: 50px;
+}
+
+
+
+.contents-reviews {
+    background-color: #00ff406e;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 30px;
+
+}
+
+.reviews-title {
+    background-color: #00ff406e;
+    text-align: center;
+    padding: 50px;
+    height: fit-content;
+
+
+}
+
+.reviews{
+    width: 400px;
+    height: 400px;
+    box-shadow: 1px 1px 10px ;
+    border-radius: 10px;
+
+
+}
+.reviews-button{
+    text-align: center;
+    padding: 30px;
+    height: fit-content;
+    width: max-content;
+    font-size: x-large;
+    background-color: #ffffff91;
+   
+}
+
+.reviews-button:hover {
+    background-color: white;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    
+
+}
+
+.BG-IMAGE3 {
+    background-color: #5afac28c;
+    background-image: url(Operation1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment:fixed;
+    width: 100%;
+    height: 50rem;
+    font-size:40px;
+    color: #ffffff;
+    text-shadow: black 2px 5px 10px;
+    
+
+}
+.Service-title{
+    background-color: #ffffff69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.services-container{
+    background-color:#52da5d5e;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.services {
+    background-color: #f8f8f8;
+    width: 400px;
+    height: fit-content;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px;
+    font-size: larger;
+
+    
+    
+
+}
+
+.services-title {
+    text-align: center;   
+}
+
+.services-content {
+    display: none;
+    font-size: 25px;
+    
+}
+
+.appointment-button-services {
+    display: none;
+    /* width:; */
+    height: fit-content;
+    background-color: #5f5dd0;
+    font-size: x-large;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    
+
+
+
+}
+.appointment-button-services-a {
+    text-align: center;
+    
+
+
+}
+.services:hover .services-content {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    
+}
+.services:hover .appointment-button-services {
+    display: flex;
+    
+    
+    
+}
+
 
 
 
@@ -531,13 +742,13 @@ a{
 
 }
 .video-about {
-    /* display: flex; */
-    width: 1080px;;
-    height: fit-content;
+    display: flex;
+    width: 700px;
+    /* height: fit-content; */
     justify-content: center;
     border-radius: 10px;
-    /* position: static; */
     box-shadow: 10px 5px 18px #0c0c0c;
+    margin: 10px;
     
     
     
@@ -553,19 +764,13 @@ a{
     background-repeat: no-repeat;
     padding: 10px;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
     align-items: center;
 
-}
-
-.content-about-2 {
-
-
-
-
 
 }
+
 
 .about-contents {
     padding: 150px;
@@ -579,12 +784,6 @@ a{
 
 
 
-.about-contentS-1 {
-    
-
-
-}
-
 .about-description {
     background-color: #ffffffa0;
     height: fit-content;
@@ -594,6 +793,13 @@ a{
     font-size: 27px;
     text-align: left;
     border-radius: 20px;
+    margin-top: 10px;
+
+}
+
+.about-contents-1 {
+    
+
 
 }
 
@@ -601,9 +807,10 @@ a{
 
 
 
+.BG-image-about3{
 
 
-
+}
 
 
 
@@ -656,12 +863,13 @@ a{
     @media (max-width:760px){
         .video-about {
             width: 380px;
-            margin: 10px;
+            margin: 20px;
         }
     }
-    @media (max-width:760px){
+    @media (max-width:1178px){
         .BG-image-about2 {
            background-image: -webkit-linear-gradient(#00ff404b,white);
+           flex-wrap: wrap;
             
         }
     }
