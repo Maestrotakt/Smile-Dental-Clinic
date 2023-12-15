@@ -6,7 +6,22 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* flex-wrap: wrap; */
     transition-duration: 0.5s;
+
 }
+.darkmode {
+    height: fit-content;
+    padding: 20px;
+    position: fixed;
+    top:85%;
+    right: 120px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
 
 a{
     color: #0c0c0c;
@@ -326,7 +341,7 @@ a{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    padding: 10px;
+    padding: 40px;
     gap: 30px;
 
 }
@@ -389,20 +404,48 @@ a{
     align-items: center;
     height: 100%;
     
+    
 }
+
+.BG-IMAGE4 {
+    background-color: #5afac28c;
+    background-image: url(Cust.back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment:fixed;
+    width: 100%;
+    height: 50rem;
+    font-size:40px;
+    color: #ffffff;
+    text-shadow: black 2px 5px 10px;
+    
+
+}
+.Service-title{
+    background-color: #ffffff69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+    
+}
+
 .services-container{
-    background-color:#52da5d5e;
+    background-color:#00ff406e;
     width: 100%;
     height: fit-content;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 20px;
+    
 }
 
 .services {
-    background-color: #f8f8f8;
+    background-color: #f8f8f898;
     width: 400px;
     height: fit-content;
     padding-top: 10px;
@@ -417,13 +460,19 @@ a{
 
 .services-title {
     text-align: center;   
+    font-size: 30px;
+
+
 }
 
 .services-content {
     display: none;
     font-size: 25px;
+    text-align:left;
     
 }
+
+
 
 .appointment-button-services {
     display: none;
@@ -434,8 +483,7 @@ a{
     padding: 20px;
     border-radius: 10px;
     margin: 10px;
-    
-
+   
 
 
 }
@@ -450,15 +498,32 @@ a{
     justify-content: center;
     background-color: white;
     padding: 10px;
-    
+    animation-delay: 10s;
 }
 .services:hover .appointment-button-services {
     display: flex;
-    
+   
     
     
 }
 
+
+.services-container-foot {
+    display: block;
+    justify-content: ;
+    align-items: center;
+    background-color: #00ff406e;
+    gap: 20px;
+    height: fit-content;
+    width: 100%;
+
+
+
+}
+.footservices{
+
+
+}
 
 
 
@@ -609,6 +674,11 @@ a{
 
 
 
+
+
+
+
+
 /* Login or signup */
 /* Login or signup */
 /* Login or signup */
@@ -677,6 +747,13 @@ a{
     border-radius: 5px;
 
 }
+
+
+
+
+
+
+
 
 /* About Codings */
 /* About Codings */
@@ -826,6 +903,8 @@ a{
         .navigation-button, .header-container,.header-container-service {
             display:block;
             position: relative;
+            line-height: 10px;
+            
 
         }
         .img-header-icons {
